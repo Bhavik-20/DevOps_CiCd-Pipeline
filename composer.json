@@ -1,7 +1,6 @@
 {
     "type": "project",
     "description": "Demo project for CI CD exectuion",
-    "license": "",
     "authors": [
         {
             "name": "Bhavik Bhatt",
