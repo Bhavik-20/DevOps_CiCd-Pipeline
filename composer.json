@@ -1,0 +1,15 @@
+{
+    "name": "Ci Cd pipeline for PHP website",
+    "type": "project",
+    "description": "Demo project for CI CD exectuion",
+    "license": "Somaiya",
+    "authors": [
+        {
+            "name": "Bhavik Bhatt",
+            "email": "bhavik.bhatt@somaiya.edu"
+        }
+    ],
+    "require": {
+        "php": "^7.1.3"
+    }
+}
