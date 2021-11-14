@@ -11,7 +11,7 @@ composer install
 stage('Test') 
 {
 steps{
-php -l index.php
+echo "<?php php -l index.php ?>"
 }
 }
 stage('Deploy') 
