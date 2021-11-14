@@ -5,13 +5,13 @@ stages
 stage('Build') 
 {
 steps{
-echo "Building the Project.........."
+composer install
 }
 }
 stage('Test') 
 {
 steps{
-echo "Testing the Project.........."
+php -l index.php
 }
 }
 stage('Deploy') 
