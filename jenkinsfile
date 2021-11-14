@@ -5,19 +5,19 @@ stages
 stage('Build') 
 {
 steps{
-composer install
+echo "This is the BUILD phase of the pipeline."
 }
 }
 stage('Test') 
 {
 steps{
-echo "<?php php -l index.php ?>"
+echo "This is the TESTING phase of the pipeline."
 }
 }
 stage('Deploy') 
 {
 steps{
-echo "Deploying the Project.........."
+echo "This is the DEPLOYMENT phase of the pipeline."
 }
 }
 }
